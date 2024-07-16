@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Environment Switcher Options</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+  </style>
+</head>
+<body>
+  <h3>Configure Environments</h3>
+  <div>
+    <input type="text" id="env-name" placeholder="Environment Name">
+    <input type="text" id="env-url" placeholder="Environment URL">
+    <select id="env-type">
+      <option value="prod">Production</option>
+      <option value="staging">Staging</option>
+      <option value="dev">Development</option>
+    </select>
+    <button id="add-env">Add Environment</button>
+  </div>
+  <div id="env-list"></div>
+  <script src="options.js"></script>
+</body>
+</html>
